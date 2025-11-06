@@ -67,14 +67,14 @@ export default function AboutPage() {
               </h1>
               <div className="text-xl text-neutral-700 leading-relaxed space-y-4">
                 <p>
-                  I'm a professional artist and journalist, bringing stories to life through both pencil and lens.
+                  I&apos;m a professional artist and journalist, bringing stories to life through both pencil and lens.
                   My journey as a self-taught artist has been driven by an unwavering passion for capturing
                   the beauty of the human form, the majesty of landscapes, and the delicate intricacies of nature.
                 </p>
                 <p>
                   With formal training in journalism from KIPS College and ICM, I combine technical expertise
                   in camera operations and editing with my artistic vision to create compelling visual narratives.
-                  Whether I'm drawing a portrait or documenting a story, my goal is always the same: to create
+                  Whether I&apos;m drawing a portrait or documenting a story, my goal is always the same: to create
                   work that moves people and stands the test of time.
                 </p>
               </div>
@@ -83,7 +83,8 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5] bg-neutral-200">
                 <Image
-                  src="https://images.pexels.com/photos/1070945/pexels-photo-1070945.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  // src="https://images.pexels.com/photos/1070945/pexels-photo-1070945.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  src="/stella-photo2 (1).jpg"
                   alt="MaryStella Knight - Artist at Work"
                   fill
                   className="object-cover"
@@ -166,8 +167,8 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-4xl font-bold mb-6">My Approach</h2>
                 <p className="text-neutral-300 leading-relaxed mb-6">
-                  Every artwork I create begins with a deep understanding of the subject. Whether it's
-                  a portrait that needs to capture a person's essence, a landscape that evokes emotion,
+                  Every artwork I create begins with a deep understanding of the subject. Whether it&apos;s
+                  a portrait that needs to capture a person&apos;s essence, a landscape that evokes emotion,
                   or a nature study that celebrates detail, I approach each project with patience,
                   precision, and passion.
                 </p>
