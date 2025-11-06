@@ -93,7 +93,8 @@ export default function Home() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5] bg-neutral-200">
                 <Image
-                  src="https://images.pexels.com/photos/1070945/pexels-photo-1070945.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  // src="https://images.pexels.com/photos/1070945/pexels-photo-1070945.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  src="/stella-photo.jpg"
                   alt="Featured Artwork"
                   fill
                   className="object-cover"
@@ -216,7 +217,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-6">Ready to Commission Your Artwork?</h2>
           <p className="text-xl text-neutral-300 mb-8 leading-relaxed">
             Whether you need a custom portrait, landscape drawing, or professional photography
-            and videography services, let's create something beautiful together.
+            and videography services, let&apos;s create something beautiful together.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/services">
